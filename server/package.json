@@ -5,10 +5,9 @@
   "main": "index.js",
   "scripts": {
     "build-ts": "tsc",
-    "start": "npm run serve",
     "serve": "node dist/index.js",
-    "watch-node": "nodemon dist/index.js",
-    "watch-ts": "tsc -w"
+    "watch-ts": "tsc -w",
+    "watch-node": "nodemon dist/index.js"
   },
   "keywords": [],
   "author": "",
